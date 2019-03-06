@@ -5,7 +5,9 @@ html, body{
     padding: 0;
     height: 100%;
     font-family: 'Catamaran',sans-serif;
+    box-sizing: border-box;
 }
+
 
 nav{
     padding: 20px;
@@ -80,16 +82,16 @@ nav ul a{
     font-size: 1.5em;
 }
 
-.hakkinda{
+.about-link{
     text-decoration: none;
     color: #fff;
     border: 1px solid #fff;
     border-radius: 20px;
     padding: 20px 60px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
-.hakkinda:hover{
+.about-link:hover{
     background-color: rgba(22, 67, 130, 1);
 }
 
@@ -106,3 +108,111 @@ nav ul a{
     font-size: 4.5rem;
   }
 
+  #about{
+      padding: 30px;
+      text-align: left;
+      height: auto;
+      background-color: #fff;
+      max-width: 960px;
+      margin: 0 auto;
+      
+  }
+
+  #about h1{
+      
+    font-weight: 600;
+  }
+
+  #about hr{
+      border: 1.2px solid rgba(22, 67, 130, 1);
+      width: 15%;
+      margin: 0;
+  }
+
+  #about .x{
+      margin-bottom: 50px;
+  }
+
+  i{
+    color: rgba(22, 67, 130, 1);
+  }
+
+  .info{
+      display: flex;
+      align-content: center;
+  }
+  .location,.date{
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .date{
+      margin-left: 20%;
+  }
+
+  .location .flex-content , .date .flex-content{
+      margin-left: 30px;
+  }
+
+  #ready{
+      height: auto;
+      padding-top:30px;
+      padding-bottom: 50px;
+      text-align: center;
+      color: #fff;
+      background-color:  rgba(22, 67, 130, 1);
+  }
+
+  #ready h2{
+      font-size: 25px;
+      margin-bottom: 50px;
+  }
+
+  #ready a{
+      text-decoration: none;
+      color: #fff;
+      border: 1px solid #fff;
+      border-radius: 20px;
+      padding: 20px 30px;
+      margin: auto;
+  }
+
+  #ready a:hover{
+      background-color: #5881b0;
+  }
+
+  #ready span{
+      margin: 20px;
+  }
+
+  #prizes{
+      text-align: center;
+      padding: 30px;
+  }
+
+  #prizes hr{
+    border: 1.2px solid rgba(22, 67, 130, 1);
+    width: 50%;
+    margin: 20 auto;
+  }
+  
+  #prizes img{
+      max-width: 960px;
+      margin-top: 30px;
+  }
+
+  #map{
+      padding: 20px;
+      background-color:  rgba(22, 67, 130, 1);
+      
+  }
+
+  .contact{
+      margin-top: 50px;
+      margin-bottom: 50px;
+      display: flex;
+      justify-content: space-evenly;
+  }
+  .contact i{
+      color: #fff;
+  }

@@ -6,6 +6,7 @@
     <title>Hack Boğaziçi</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <script src="countdown.js"></script>
 </head>
 <body>
@@ -13,9 +14,10 @@
         <div class="overlay">
             <nav>
                 <ul>
-                    <li><a href="#">Compec</a></li>
-                    <li><a href="#">Hackathon</a></li>
-                    <li><a href="#">Başvur</a></li>
+                    <li><a href="#about">Hakkında</a></li>
+                    <li><a href="#ready">Başvur</a></li>
+                    <li><a href="#prizes">Ödüller</a></li>
+                    <li><a href="#map">İletişim</a></li>
                 </ul>
             </nav>
 
@@ -25,16 +27,76 @@
                 <p>A hackathon that is organized by Boğaziçi University IT Club Compec and its partners Amazon Turkey and Insider</p>
                 <div class="countdown">
                     <ul>
-                        <li><span id="days"></span>days</li>
-                        <li><span id="hours"></span>Hours</li>
-                        <li><span id="minutes"></span>Minutes</li>
-                        <li><span id="seconds"></span>Seconds</li>
+                        <li><span id="days"></span>gün:</li>
+                        <li><span id="hours"></span>saat:</li>
+                        <li><span id="minutes"></span>Dakika:</li>
+                        <li><span id="seconds"></span>Saniye:</li>
                       </ul>
                 </div>
-                <a href="#" class="hakkinda">Hemen Başvur</a>
+                <a href="#about" class="about-link">Etkinlik Hakkında</a>
             </div>
         </div>
+    </div>    
+        <section id="about">
+            <h2>Compec ve Hackathon Hakkında</h2>
+            <hr>
+            <p>Boğaziçi Üniversitesi Bilişim Kulübü Compec, bilişim ve teknoloji alanında 1994'ten bu yana Boğaziçi Üniversitesi Bilgisayar
+                Mühendisliği bünyesinde faaliyet gösteren bir öğrenci kulübüdür.
+            </p>
+
+            <p class="x">Hack Boğaziçi, Amazon Türkiye ve Insider ile birlikte data science üzerine düzenlenecek etkinliktir. Hackathonun amacı katılımcıların,data
+            science teknikleri kullanılarak probleme yönelik çözüm üretme sürecini deneyimleyebilmeleri ve teknik bilgilerini test edebilmelerini
+            sağlamaktır.
+            </p>
+
+            <div class="info">
+                <div class="location">
+                    <i class="fas fa-map-marked fa-4x"></i>
+                    <div class="flex-content">
+                        <h4>YER:</h4>
+                        <p>Boğaziçi Üniversitesi Kuzey Kampüs<br>Bilgisayar Mühendisliği Binası B4</p>
+                    </div>
+                </div>
+                <div class="date">
+                    <i class="fas fa-calendar-day fa-4x"></i>
+                    <div class="flex-content">
+                        <h4>TARİH:</h4>
+                        <p>13-14 Nisan<br>Cumartesi,Pazar</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="ready">
+            <h2>Katılmaya Hazır mısın ? </h2>
+
+            <a href="#" class="apply">Hemen Başvur</a>
+            <span></span>
+        </section>
+
+        <section id="prizes">
+            <h2>Ödüller</h2>
+            <hr>
+            <p>İlk üçe girecek takımlarımıza verilecek ödüller aşağıdaki gibidir.</p>
+            <img src="/assets/prizes.PNG" alt="prizes">
+        </section>
         
-    </div>
+        <section id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12029.039820180331!2d29.0446262!3d41.0851665!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9d2497b07c8edb2f!2zQm_En2F6acOnaSDDnG5pdmVyc2l0ZXNpIEt1emV5IEthbXDDvHM!5e0!3m2!1str!2str!4v1551906420658" 
+        width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+            <div class="contact">
+                <div class="contact-way">
+                    <i class="fas fa-phone fa-2x"> +90 539 651 7843</i>
+                   
+                </div>
+                <div class="contact-way">
+                    <i class="fas fa-at fa-2x"> compeciletisim@gmail.com</i>
+                    
+                </div>
+            </div>
+        </section>
+        
+    
 </body>
 </html>
