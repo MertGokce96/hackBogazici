@@ -5,11 +5,69 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Hack Boğaziçi</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    
     <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="shortcut icon" type="image/png" href="assets/favicon.PNG">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <script src="countdown.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+    <!--
+    <script type="text/javascript">
+        $(window).on('scroll',function(){
+            if($(window).scrollTop()){
+                $('nav').addClass('colored');
+            }
+            else{
+                $('nav').removeClass('colored');
+            }
+        })
+    </script>-->
 </head>
 <body>
+
+    <header>
+        <div class="overlay">
+            <nav>
+                <div class="wrapper">
+                    <div class="container">    
+                        <h3 class="logo">HackBoğaziçi</h3>
+
+                        <ul>
+                                <li><a href="#about">Hakkında</a></li>
+                                <li><a href="#ready">Başvur</a></li>
+                                <li><a href="#prizes">Ödüller</a></li>
+                                <li><a href="#map">İletişim</a></li>
+                            </ul>
+                    </div>
+                </div>
+            </nav>
+        
+            <div class="wrapper second">    
+                <div class="hero-content">
+                    <div class="text">
+                        <h1>Hack Boğaziçi</h1>
+                        <hr>
+                        <p>A hackathon that is organized by Boğaziçi University IT Club Compec and its partners Amazon Turkey and Insider</p>
+                    </div>
+                    <div class="countdown">
+                            <ul>
+                                <li><span id="days"></span>Gün</li>
+                                <li><span id="hours"></span>Saat</li>
+                                <li><span id="minutes"></span>Dakika</li>
+                                <li><span id="seconds"></span>Saniye</li>
+                            </ul>
+                    </div>
+                    <div class="hero-btn">
+                            <a href="#about">Etkinlik Hakkında</a>
+                    </div>
+                </div>
+            </div>    
+        </div>
+
+    </header>
+
+    <!--
     <div class="hero">
         <div class="overlay">
             <nav>
@@ -20,48 +78,56 @@
                     <li><a href="#map">İletişim</a></li>
                 </ul>
             </nav>
-
-            <div class="hero-content">
-                <h1>Hack Bogazici</h1>
-                <hr>
-                <p>A hackathon that is organized by Boğaziçi University IT Club Compec and its partners Amazon Turkey and Insider</p>
-                <div class="countdown">
-                    <ul>
-                        <li><span id="days"></span>gün:</li>
-                        <li><span id="hours"></span>saat:</li>
-                        <li><span id="minutes"></span>Dakika:</li>
-                        <li><span id="seconds"></span>Saniye:</li>
-                      </ul>
-                </div>
-                <a href="#about" class="about-link">Etkinlik Hakkında</a>
-            </div>
-        </div>
-    </div>    
-        <section id="about">
-            <h2>Compec ve Hackathon Hakkında</h2>
-            <hr>
-            <p>Boğaziçi Üniversitesi Bilişim Kulübü Compec, bilişim ve teknoloji alanında 1994'ten bu yana Boğaziçi Üniversitesi Bilgisayar
-                Mühendisliği bünyesinde faaliyet gösteren bir öğrenci kulübüdür.
-            </p>
-
-            <p class="x">Hack Boğaziçi, Amazon Türkiye ve Insider ile birlikte data science üzerine düzenlenecek etkinliktir. Hackathonun amacı katılımcıların,data
-            science teknikleri kullanılarak probleme yönelik çözüm üretme sürecini deneyimleyebilmeleri ve teknik bilgilerini test edebilmelerini
-            sağlamaktır.
-            </p>
-
-            <div class="info">
-                <div class="location">
-                    <i class="fas fa-map-marked fa-4x"></i>
-                    <div class="flex-content">
-                        <h4>YER:</h4>
-                        <p>Boğaziçi Üniversitesi Kuzey Kampüs<br>Bilgisayar Mühendisliği Binası B4</p>
+            
+                <div class="hero-content">
+                    <div class="wrapper">
+                    <h1>Hack Bogazici</h1>
+                    <hr>
+                    <p>A hackathon that is organized by Boğaziçi University IT Club Compec and its partners Amazon Turkey and Insider</p>
+                    <div class="countdown">
+                        <ul>
+                            <li><span id="days"></span>gün:</li>
+                            <li><span id="hours"></span>saat:</li>
+                            <li><span id="minutes"></span>Dakika:</li>
+                            <li><span id="seconds"></span>Saniye:</li>
+                        </ul>
+                    </div>
+                    <div class="hero-btn">
+                        <a href="#about" class="about-link">Etkinlik Hakkında</a>
                     </div>
                 </div>
-                <div class="date">
-                    <i class="fas fa-calendar-day fa-4x"></i>
-                    <div class="flex-content">
-                        <h4>TARİH:</h4>
-                        <p>13-14 Nisan<br>Cumartesi,Pazar</p>
+                </div> 
+        </div>
+    </div>-->
+    
+    
+        <section id="about">
+            <div class="wrapper">
+                <h2>Compec ve Hackathon Hakkında</h2>
+                <hr>
+                <p>Boğaziçi Üniversitesi Bilişim Kulübü Compec, bilişim ve teknoloji alanında 1994'ten bu yana Boğaziçi Üniversitesi Bilgisayar
+                    Mühendisliği bünyesinde faaliyet gösteren bir öğrenci kulübüdür.
+                </p>
+
+                <p class="x">Hack Boğaziçi, Amazon Türkiye ve Insider ile birlikte data science üzerine düzenlenecek etkinliktir. Hackathonun amacı katılımcıların,data
+                science teknikleri kullanılarak probleme yönelik çözüm üretme sürecini deneyimleyebilmeleri ve teknik bilgilerini test edebilmelerini
+                sağlamaktır.
+                </p>
+
+                <div class="info">
+                    <div class="location">
+                        <i class="fas fa-map-marked fa-4x"></i>
+                        <div class="flex-content">
+                            <h4>YER:</h4>
+                            <p>Boğaziçi Üniversitesi Kuzey Kampüs<br>Bilgisayar Mühendisliği Binası B4</p>
+                        </div>
+                    </div>
+                    <div class="date">
+                        <i class="fas fa-calendar-day fa-4x"></i>
+                        <div class="flex-content">
+                            <h4>TARİH:</h4>
+                            <p>13-14 Nisan<br>Cumartesi,Pazar</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -69,8 +135,10 @@
 
         <section id="ready">
             <h2>Katılmaya Hazır mısın ? </h2>
-
-            <a href="#" class="apply">Hemen Başvur</a>
+            <div>
+                <a href="#" class="apply">Hemen Başvur</a>
+            </div>
+            
             <span></span>
         </section>
 
@@ -96,7 +164,7 @@
                 </div>
             </div>
         </section>
-        
+       
     
 </body>
 </html>
